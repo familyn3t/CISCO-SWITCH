@@ -26,5 +26,6 @@
 	#conf t
 	#default interface Ethernet1/21
 	#copy running-config startup-config
-10. 
+10. Menampilkan seluruh konfigurasi
+	#sh running-config
 
