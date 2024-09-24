@@ -18,4 +18,8 @@
 	#copy running-config startup-config
 7.  Menampilkan port yang ada pada VLAN
 	#show vlan id 100
-8.  
+8.  Menghapus VLAN pada interface
+	#conf t
+	#interface Ethernet1/43
+	#switchport trunk allowed vlan remove 100
+9.  
