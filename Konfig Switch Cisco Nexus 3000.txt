@@ -22,4 +22,9 @@
 	#conf t
 	#interface Ethernet1/43
 	#switchport trunk allowed vlan remove 100
-9.  
+9.  Menghapus / mendefaultkan interface
+	#conf t
+	#default interface Ethernet1/21
+	#copy running-config startup-config
+10. 
+
