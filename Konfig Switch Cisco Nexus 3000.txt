@@ -1,0 +1,4 @@
+1.  Perintah config
+	#conf t (configure terminal)
+2.	Menampilkan interface
+	#show interface status
