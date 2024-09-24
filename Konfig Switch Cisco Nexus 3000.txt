@@ -1,4 +1,14 @@
 1.  Perintah config
-	#conf t (configure terminal)
-2.	Menampilkan interface
+	#conf t / Me(configure terminal)
+2.  Menampilkan interface
 	#show interface status
+3.  Menampilkan VLAN
+	#show vlan brief
+4.  Membuat VLAN
+	#conf t
+	#vlan 100
+	#name VLAN-100
+	#description VLAN-100 (Modem Pelanggan)
+5.  Menampilkan konfigurasi pada interface
+	#show running-config interface Ethernet1/43
+6.  
