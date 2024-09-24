@@ -11,4 +11,11 @@
 	#description VLAN-100 (Modem Pelanggan)
 5.  Menampilkan konfigurasi pada interface
 	#show running-config interface Ethernet1/43
-6.  
+6.  Menambah VLAN ID pada Interface yang sudah memiliki VLAN
+	#conf t
+	#interface Ethernet1/43
+	#switchport trunk allowed vlan add 100
+	#copy running-config startup-config
+7.  Menampilkan port yang ada pada VLAN
+	#show vlan id 100
+8.  
